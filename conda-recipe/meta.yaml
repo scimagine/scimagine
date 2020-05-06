@@ -21,7 +21,7 @@ test:
     requires:
         - nose
     commands:
-        - nosetests --exe sciview
+        - nosetests --exe scimagine
 
 about:
   home: https://github.com/scimagine/scimagine
