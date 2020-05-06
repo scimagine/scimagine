@@ -1,0 +1,26 @@
+package:
+  name: scimagine
+  # version: "1.0"
+  # the version is actually being set by the __conda_version__.txt file
+  # http://conda.pydata.org/docs/build.html#post-build-version
+
+requirements:
+  build:
+    - python
+    - cython
+    - numpy
+    - setuptools
+
+  run:
+    - python
+    - numpy
+
+test:
+    requires:
+        - nose
+    commands:
+        - nosetests --exe sciview
+
+about:
+  home: https://github.com/scimagine/scimagine
+  license: MIT
