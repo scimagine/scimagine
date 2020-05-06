@@ -8,4 +8,4 @@ export PATH=$HOME/miniconda3/bin:$PATH
 ls $HOME/miniconda3/bin
 
 conda update --yes conda
-conda install --yes pip conda-build jinja2 binstar
+conda install --yes pip conda-build jinja2 anaconda-client
