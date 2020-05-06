@@ -15,12 +15,12 @@ extension_module = Extension(
 )
 
 
-if os.environ['CONDA_BUILD']:
-    with open('__conda_version__.txt', 'w') as f:
-        if ISRELEASED:
-            f.write(VERSION)
-        else:
-            f.write(VERSION + '.dev')
+# if os.environ['CONDA_BUILD']:
+#     with open('__conda_version__.txt', 'w') as f:
+#         if ISRELEASED:
+#             f.write(VERSION)
+#         else:
+#             f.write(VERSION + '.dev')
 
 setup(
     name = 'scimagine',
